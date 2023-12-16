@@ -15,5 +15,4 @@ function randomNum() {
   let num = Math.floor(Math.random() * (maxValue - minValue + 1)) + minValue;
   document.getElementById("result").innerText = num;
 }
-window.addEventListener("click", randomNum());
 generateBtn.addEventListener("click", randomNum);
