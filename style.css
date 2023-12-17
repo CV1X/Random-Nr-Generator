@@ -11,13 +11,24 @@
     background-repeat: no-repeat;
     background-position: center; 
   }
+
+  .title {
+    text-align: center;
+    margin: 0 auto; /* This will center the div horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    padding-top: 30px;
+    color: #f5a623;
+}
   .container {
     background-color: #ffffff;
     width: 85vw;
     max-width: 34em;
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 50%;
+    top: 52%;
     left: 50%;
     padding: 3em;
     border-radius: 0.5em;
